@@ -1,0 +1,26 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.item span{
+
+  
+    background-color:black;
+     
+    color: wheat;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 24px;
+    cursor: pointer;
+}
