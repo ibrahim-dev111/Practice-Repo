@@ -27,12 +27,13 @@ const App = () => {
       {/* <Accordian /> */}
 
       <div className="Show-Offer">
+        <h1>Hey there i am updated one</h1>
         <button className="ofr-btn" onClick={handleOpenModal}>{isOfferAccepted?<p>Offer Accepted</p> : <p>Show Offer</p>} </button>
       </div>
       {
 
         isShow&& <Modal handleOffer={handleOffer} handleClose={handleClose}/>
-
+        
       }
 
      
